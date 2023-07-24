@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <div id="transparent">
+       
+    </div>
+    <div id="card">
+        <form action="/login" method="post">
+        <h1 id="NameLabel">User Name:</h1>
+        <input type="text" name="Name" id="Name">
+        <h2 id="passwordLabel">Password:</h2>
+        <input type="password" name="password" id="password">
+        <p id="passinfo">password must be atleast 8 characters</p>
+        <button id="Login" onclick="validator()" type="submit"><b>Login</b></button>
+        </div>
+    </form>
+        <script src="login.js"></script>
+</body>
+</html>
